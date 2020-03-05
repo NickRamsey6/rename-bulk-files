@@ -14,7 +14,7 @@ for filename in os.listdir(files):
 pdfs.sort(key=str.lower)
 
 
-path="Same path HERE"
+path="Same path HERE" #Could put a new path here?
 #Function for renaming
 def rename(src, dst, extension):
     os.rename(b,a+'.'+extension)
