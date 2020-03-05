@@ -10,13 +10,19 @@ _Our internal dashboard automatically names downloads based on account, project,
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _$ brew install python_
+* _$ git clone https://github.com/NickRamsey6/rename-bulk-files_
+* _$ cd rename-bulk-files_
+* _$ atom ._
+* _$ pip install pandas_
+* _$ pip install os_
+* _$ pip install itertools_
+* _create an .xlsx file with a list of the new names_
+* _get the path to the directory of the files you want to rename_
+* _enter the name of the .xlsx file (made above) to line 6, in the quotes_
+* _enter the path to the directory in line 8 and again in 17_
+* _$ python 3 renamer.py_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Specs
 | Behavior | Input | Output |
